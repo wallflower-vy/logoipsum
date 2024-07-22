@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 15px;
+}
+.logo-box h1 {
+  color: white;
+}
+.nav-items {
+  background-color: brown;
+}
+.btn-box {
+  /* background-color: orange; */
+}
+.nav-items ul li {
+  display: inline;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn-box button {
+  background-color: #00a2e4;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.img-box {
+  width: 100%;
+}
+.img-box img {
+  width: 100%;
+}
+.about-section {
+  /* background-color: red; */
+  padding: 0px 15px;
+}
+.about-section h1 {
+  text-align: center;
+}
+.about-section p {
+  text-align: center;
+  margin-top: 10px;
+}
+.Gallery-box {
+  /* background-color: blueviolet; */
+  padding: 0px 15px;
+  margin-top: 25px;
+}
+.Gallery-box h1 {
+  text-align: center;
+}
+.Gallery-box p {
+  margin-top: 5px;
+  text-align: center;
+
+  border: 1px solid red;
+  border-radius: 20px;
+}
+.gallery-images {
+  background-color: hsl(0, 100%, 50%);
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.gallery-images img {
+  width: 30%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    background-color: red;
+    display: block;
+
+    flex-direction: column;
+
+    padding: 0px 0px;
+  }
+  .logo-box h1 {
+    color: blue;
+  }
+  .nav-items ul li {
+    display: none;
+    margin: 0px;
+  }
+  .btn-box button {
+    background-color: green;
+    color: orange;
+    border: 2px solid black;
+    padding: 3px 10px;
+    cursor: none;
+    border-radius: 0px;
+  }
+  .gallery-images {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+}
